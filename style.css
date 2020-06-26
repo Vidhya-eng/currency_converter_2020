@@ -1,0 +1,231 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 601px) {
+    .first-half-container {
+        height: 400px;
+        width: 1280px;
+        background-color: #363A3E;
+    }
+    .first-half-container img {
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    .first-half-container .headline {
+        margin-left: 60px;
+        margin-top: 124px;
+    }
+    .pickar-logo {
+        height: 35px;
+        width: 99.8px;
+    }
+    .headline {
+        height: 47px;
+        width: 570px;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+    }
+    .currency-converter {
+        position: absolute;
+        top: 336px;
+        left: 60px;
+        right: 315px;
+        height: 128px;
+        width: 905px;
+        border-radius: 15px;
+        background-color: #FFF;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    }
+    #amount {
+        height: 40px;
+        width: 200px;
+        border-radius: 8px;
+        background-color: rgba(54, 58, 62, 0.08);
+        padding-top: 28px;
+    }
+    .input-amount {
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        bottom: 36px;
+    }
+    input[type="number"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+    .from-select {
+        position: absolute;
+        top: 8px;
+        left: 264px;
+        bottom: 36px;
+    }
+    .to-select {
+        position: absolute;
+        top: 8px;
+        left: 508px;
+        bottom: 36px;
+    }
+    .converter-arrow {
+        position: absolute;
+        top: 60px;
+        left: 480px;
+        bottom: 49px;
+    }
+    #convert-button {
+        position: absolute;
+        top: 48px;
+        left: 748px;
+        bottom: 36px;
+        height: 40px;
+        width: 117px;
+    }
+    .buttonStyle {
+        border-radius: 8px;
+        background-color: #FF4F54;
+        color: white;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    .select-currency {
+        height: 40px;
+        width: 200px;
+        border-radius: 8px;
+        background-color: rgba(54, 58, 62, 0.08);
+    }
+    #result {
+        position: relative;
+        top: 150px;
+        left: 60px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headline {
+        height: 47px;
+        width: 570px;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 47px;
+    }
+    .first-half-container {
+        height: 400px;
+        width: 500;
+        background-color: #363A3E;
+        padding-right: 0;
+    }
+    .first-half-container img {
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    .first-half-container .headline {
+        margin-left: 60px;
+        margin-top: 124px;
+    }
+    .pickar-logo {
+        height: 35px;
+        width: 99.8px;
+    }
+    .currency-converter {
+        position: absolute;
+        top: 336px;
+        left: 0px;
+        right: 0px;
+        height: 550px;
+        width: auto;
+        border-radius: 15px;
+        background-color: #FFF;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    }
+    #amount {
+        height: 40px;
+        width: 200px;
+        border-radius: 8px;
+        background-color: rgba(54, 58, 62, 0.08);
+        padding-top: 28px;
+    }
+    input[type="number"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+    .input-amount {
+        position: absolute;
+        left: 120px;
+        top: 8px;
+        bottom: 36px;
+    }
+    .from-select {
+        position: absolute;
+        top: 150px;
+        left: 120px;
+        bottom: 36px;
+    }
+    .to-select {
+        position: absolute;
+        top: 300px;
+        left: 120px;
+        bottom: 36px;
+    }
+    .converter-arrow {
+        position: absolute;
+        top: 450px;
+        left: 200px;
+        bottom: 49px;
+    }
+    #convert-button {
+        position: absolute;
+        top: 500px;
+        left: 150px;
+        bottom: 36px;
+        height: 40px;
+        width: 117px;
+    }
+    .buttonStyle {
+        border-radius: 8px;
+        background-color: #FF4F54;
+        color: white;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    .select-currency {
+        height: 40px;
+        width: 200px;
+        border-radius: 8px;
+        background-color: rgba(54, 58, 62, 0.08);
+    }
+    #result {
+        position: absolute;
+        top: 1000px;
+        left: 60px;
+        font-size: 40px;
+    }
+}

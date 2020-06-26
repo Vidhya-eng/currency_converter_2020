@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="first-half-container">
+        <img class="pickar-logo img-responsive" src="pickar_logo_white.png">
+        <div class="headline">
+            Convert Currencies in real-time
+        </div>
+    </div>
+    <div class="currency-converter container">
+        <div class="row">
+            <div class="input-amount ">
+                <p>Amount</p>
+                <input type="number" id="amount">
+            </div>
+            <div class="from-select">
+                <p>From</p>
+                <select class="select-currency" id="convertFrom">
+            <option value="0">Select Currency Type :</option>
+            <option value="Usd">Usd</option>
+            </select>
+            </div>
+            <img class="converter-arrow" src="Switcher.png">
+            <div class="to-select">
+                <p>To</p>
+                <select class="select-currency" id="convertTo">
+            <option value="0">Select Currency Type :</option>
+            <option value="Euro">Euro</option>
+            <option value="Chf">Chf</option>
+            </select>
+            </div>
+            <button type="button" id="convert-button" class="buttonStyle">Convert</button>
+        </div>
+    </div>
+    <div id="result"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
